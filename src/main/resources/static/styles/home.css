@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+input[type="submit"] {
+    background-color: #f44336; /* Red background */
+    color: white; /* White text color */
+    padding: 12px 24px; /* Some padding */
+    border: none; /* No border */
+    cursor: pointer; /* Mouse pointer on hover */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Centered text */
+    display: block; /* Center the button */
+    margin: 0 auto; /* Center the button */
+}
+
+input[type="submit"]:hover {
+    background-color: #b71c1c; /* Darker red on hover */
+}

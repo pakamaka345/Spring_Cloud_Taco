@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    generate-unique-name: false
+    name: tacocloud
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+  sql:
+    init:
+      mode: always
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: 312894574714473
+            client-secret: cead8ad02ed37cc33235718d84fa944c
+            scope: email, public_profile
